@@ -1,0 +1,291 @@
+
+
+.x-image {
+    height: 350px;
+    margin-left: 175px;
+    margin-top: 150px;    
+}
+
+main {
+    display: flex;
+    
+}
+
+.happen {
+    margin-left: 180px;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+button {
+    width: 60%;
+    height: 2.75rem;
+    border-radius: 1.25rem;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    background-color: transparent;
+    border-width: 0.05rem;
+    border-color: rgb(222, 221, 221);
+}
+
+.button_white {
+    margin-top: 10px;
+}
+
+.divider {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    width: 60%;
+
+}
+
+hr {
+    width: 40%;
+}
+
+.create {
+    background-color: rgb(0, 145, 255);
+    color: white;
+    font-size: 15px;
+    padding-left: 100px;
+    border: none;    
+}
+
+.privacy {
+    font-size: 12.5px;
+    margin-top: 0px;
+    margin-bottom: 65px;
+}
+
+.sign_in {
+    color: rgb(0, 145, 255);
+    font-size: 17.5px;
+    padding-left: 110px;
+}
+
+section .button_blue>:hover {
+    outline: 2px solid greenyellow;
+    background-color: rgb(0, 98, 255);
+    cursor: pointer;
+}
+
+section .button_white>:hover {
+    outline: 2px solid rgb(214, 220, 205);
+    background-color: rgb(224, 224, 224);
+    cursor: pointer;
+}
+
+section .button_vile>:hover {
+    outline: 2px solid rgb(214, 220, 205);
+    background-color: rgb(224, 224, 224);
+    cursor: pointer;
+}
+
+section .button_third>:hover {
+    outline: 2px solid rgb(214, 220, 205);
+    background-color: rgb(224, 224, 224);
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    main {
+        flex-flow: column;
+        /* margin-left: 150px; */
+}
+    .x-image {
+        height: 200px;
+        margin-top: 0px;
+    }
+    h1 {
+        font-size: 55px;
+    }
+    h4 {
+        font-size: 30px;
+    }
+    button {
+        width: 50%;
+        height: 2.75rem;
+        border-radius: 1.25rem;
+        display: flex;
+        align-items: center;
+        padding-left: 95px;
+        background-color: transparent;
+        border-width: 0.05rem;
+        border-color: rgb(222, 221, 221);
+    }
+    .divider {
+        width: 50%;
+    }
+    .privacy {
+        font-size: 13.5px;
+    
+    }
+    .create {
+        
+        padding-left: 110px;
+          
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        flex-flow: column;
+        margin-left: 0px;
+        padding-left: 0;
+        
+}
+.x-image {
+    height: 100px;
+    margin-top: 0px;
+}
+h1 {
+    font-size: 27.5px;
+}
+h2 {
+    font-size: 12px;
+}
+
+button {
+    width: 50%;
+    height: 1.75rem;
+    border-radius: 1.25rem;
+    display: flex;
+    align-items: center;
+    padding-left: 95px;
+    
+}
+
+.create {
+    
+    font-size: 10px;
+    padding-left: 40px;
+    border: none;    
+}
+ .apple {
+    font-size: 10px;
+    padding-left: 20px;
+       
+} 
+
+.app {
+    height: 1rem;
+}
+.gog {
+    height: 0.8rem
+}
+
+.google {
+    font-size: 10px;
+    padding-left: 20px;
+}
+.privacy {
+    font-size: 5.5px;
+    margin-top: 2.5px;
+
+}
+
+.divider {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 7px;
+}
+
+h3 {
+    font-size: 12px;
+}
+.sign_in {
+    font-size: 8px;
+    padding-left: 56px;
+}
+}
+
+@media (max-width: 320px) {
+    main {
+        margin: 0px;
+        padding: 0px;
+        flex-flow: column;
+        
+    }
+    .x-image {
+        height: 70px;
+        margin-bottom: 35px;
+    }
+    h1 {
+        font-size: 16.5px;
+    }
+    h2 {
+        font-size: 8px;
+        margin-bottom: 30px;
+    }
+    
+    button {
+        width: 75%;
+        height: 1.2rem;
+        border-radius: 1.25rem;
+        display: flex;
+        align-items: center;
+        padding-left: 95px;
+        
+    }
+    
+    .create {
+        
+        font-size: 9px;
+        padding-left: 20px;
+        border: none;    
+    }
+     .apple {
+        font-size: 6px;
+        padding-left: 10px;
+           
+    } 
+    
+    .app {
+        height: 0.6rem;
+    }
+    .gog {
+        height: 0.4rem
+    }
+    
+    .google {
+        font-size: 6px;
+        padding-left: 10px;
+    }
+    .privacy {
+        font-size: 5.5px;
+        margin-top: 2.5px;
+    
+    }
+    
+    hr {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 7px;
+        
+    }
+    .divider {
+        width: 75%;
+        gap: 0.25rem;
+    }
+    
+    
+    h3 {
+        font-size: 8px;
+    }
+    .privacy {
+        font-size: 5px;
+    }
+    .sign_in {
+        font-size: 8px;
+        padding-left: 40px;
+    }
+}
